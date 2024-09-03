@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\GameStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5D6D4A1-83EF-4F1A-AF17-D4166FC551DB}|GameStore.API\\GameStore.API.csproj|d:\\c#\\gamestore\\gamestore.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5D6D4A1-83EF-4F1A-AF17-D4166FC551DB}|GameStore.API\\GameStore.API.csproj|solutionrelative:gamestore.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5D6D4A1-83EF-4F1A-AF17-D4166FC551DB}|GameStore.API\\GameStore.API.csproj|d:\\c#\\gamestore\\gamestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D6D4A1-83EF-4F1A-AF17-D4166FC551DB}|GameStore.API\\GameStore.API.csproj|solutionrelative:gamestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\C#\\GameStore\\GameStore.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GameStore.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\C#\\GameStore\\GameStore.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GameStore.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T08:51:29.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\GameStore\\GameStore.API\\Program.cs",
+              "RelativeDocumentMoniker": "GameStore.API\\Program.cs",
+              "ToolTip": "D:\\C#\\GameStore\\GameStore.API\\Program.cs",
+              "RelativeToolTip": "GameStore.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T06:56:42.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
