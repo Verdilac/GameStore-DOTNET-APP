@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GameStore.API.Data.Migrations
 {
     [DbContext(typeof(GameStoreContext))]
-    [Migration("20240905135531_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240907163716_Initialization")]
+    partial class Initialization
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,7 +50,7 @@ namespace GameStore.API.Data.Migrations
 
                     b.HasIndex("GenreId");
 
-                    b.ToTable("Game");
+                    b.ToTable("Games");
                 });
 
             modelBuilder.Entity("GameStore.API.Entities.Genre", b =>
@@ -67,7 +67,29 @@ namespace GameStore.API.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Genre");
+                    b.ToTable("Genres");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Fighting"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "RPG"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "FPS"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Racing"
+                        });
                 });
 
             modelBuilder.Entity("GameStore.API.Entities.Game", b =>
